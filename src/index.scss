@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.button{
+    @apply rounded-lg px-2
+}
+.lightgray{
+    @apply bg-gray-100;
+}
+.centred-col{
+    @apply flex flex-col justify-center items-center;
+}
+
+td{
+    @apply border-b-2 border-gray-200 text-center
+}
+
+th{
+    @apply border-b-2 border-black text-center
+}
